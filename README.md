@@ -1,6 +1,6 @@
 # Gaussian Thompson Sampling
 
-Roman Ghukasyan | DS223 Marketing Analytics
+Group 1 | DS223 Marketing Analytics
 
 A Streamlit application comparing alternatives with Bayesian bandits. The original carousel pages use click/no-click feedback. The Gaussian Bandit page extends the model to continuous rewards with known noise standard deviation.
 
@@ -122,7 +122,7 @@ Streamlit Community Cloud configuration:
 
 ## Credits
 
-The original frontend was adapted from [hovhannisyan91/DS223_Group_Project](https://github.com/hovhannisyan91/DS223_Group_Project/tree/main/app/front), commit `3573a04fc6329a3f08a268b72093097d917c4156`. Its original three pages and Beta-Bernoulli algorithm are retained. Gaussian sampling is implemented in [gaussian_bandit.py](gaussian_bandit.py) and [the new page](pages/Gaussian_Bandit.py). The existing carousel Delete button also removes the selected carousel from session state.
+The original frontend was adapted from [hovhannisyan91/DS223_Group_Project](https://github.com/hovhannisyan91/DS223_Group_Project/tree/main/app/front), commit `3573a04fc6329a3f08a268b72093097d917c4156`. Its original three pages and Beta-Bernoulli algorithm are retained. Gaussian sampling is implemented in [gaussian_bandit.py](gaussian_bandit.py) and [the new page](https://gaussian-bandit-group1.streamlit.app/). The existing carousel Delete button also removes the selected carousel from session state.
 
 - [Application entrypoint](main.py)
 - [Experiment results](experiments/summary.csv)
